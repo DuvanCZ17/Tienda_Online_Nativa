@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "155085131605",
+    "project_id": "tienda-online-e7d9f",
+    "storage_bucket": "tienda-online-e7d9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155085131605:android:f299a4a15511bcb8e129dc",
+        "android_client_info": {
+          "package_name": "com.example.tienda_online"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqmd6haDFetr5p8h8fpVK87s6BbOvHsQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

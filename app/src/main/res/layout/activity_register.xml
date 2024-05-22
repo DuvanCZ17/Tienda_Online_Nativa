@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".RegisterActivity"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrate aqui"
+        android:textSize="40sp"
+        android:fontFamily="times"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:fontFamily="times"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/nombre" />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:fontFamily="times"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/correo"
+        android:autofillHints="emailAddress"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:fontFamily="times"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/password"
+        android:autofillHints="password"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Registrate"
+        android:fontFamily="times"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Ya tienes una cuenta?"
+        android:textSize="15sp"
+        android:fontFamily="times"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Ingresar"
+        android:fontFamily="times"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+</LinearLayout>
